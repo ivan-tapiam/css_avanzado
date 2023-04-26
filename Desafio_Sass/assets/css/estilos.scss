@@ -1,0 +1,32 @@
+@import "./my-theme.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@300;500&display=swap');
+
+
+.container-fluid{
+    font-family: 'Dancing Script', cursive;
+
+    .item-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+        margin: 1rem;
+    }
+
+    .card{
+        background-color: $secondary-dark;
+        color: $light;
+    }
+
+    img{
+        background-color: $secondary-dark;
+    }
+
+    .card-title{
+        color: $danger;
+    }
+
+    .btn{
+        color: $light;
+        background-color: $danger;
+    }
+}
